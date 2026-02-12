@@ -29,3 +29,9 @@ checkpoints/
 *.zip
 notebooks/.ipynb_checkpoints/
 notebooks/*.svg
+
+# Session data (archived via GitHub Release)
+analysis/data/models/session*/
+analysis/data/model_performance/session*/
+flagship_snapshots.log
+*.tar.gz
