@@ -16,8 +16,8 @@ An RL agent learns to dynamically refine and coarsen a computational mesh during
 
 ```bash
 # Clone the repository
-git clone https://github.com/Antone4628/drl-amr-1d.git
-cd drl-amr-1d
+git clone https://github.com/Antone4628/drl-amr-1d-thesis.git
+cd drl-amr-1d-thesis
 
 # Create and activate conda environment
 conda create -n rl-amr python=3.9
@@ -89,13 +89,21 @@ python experiments/run_experiments_mixed_gpu.py \
 
 This produces a trained model, training report PDF, metrics JSON, and summary CSV in `results/quick_test/`.
 
+## Thesis Data
+
+The trained models and evaluation results from the thesis parameter sweep (`session4_100k_uniform`) are attached to the [latest release](https://github.com/Antone4628/drl-amr-1d-thesis/releases/latest) as `session4_100k_uniform_data.tar.gz`. Download it and extract at the repository root:
+
+```bash
+tar -xzf session4_100k_uniform_data.tar.gz
+```
+
 ## Documentation
 
 - **[`1D_DRL_AMR_COMPLETE_WORKFLOW.md`](1D_DRL_AMR_COMPLETE_WORKFLOW.md)** — Full pipeline instructions: parameter sweep training, batch evaluation, three-stage analysis, transferability testing, and troubleshooting.
 
 ## Project Structure
 
-See [`project_tree.md`](project_tree.md) for the complete directory tree.
+See [`PROJECT_TREE.md`](PROJECT_TREE.md) for the complete directory tree.
 
 Key components:
 
