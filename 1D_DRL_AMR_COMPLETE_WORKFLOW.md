@@ -30,7 +30,7 @@ This document provides complete instructions for executing the DRL-AMR training 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                           TRAINING PHASE                                     │
+│                           TRAINING PHASE                                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │  Parameter Sweep (81 models)          OR      Individual Training Run       │
 │  create_data_export_scripts.py                run_experiments_mixed_gpu.py  │
@@ -39,18 +39,18 @@ This document provides complete instructions for executing the DRL-AMR training 
 └─────────────────────────────────────────────────────────────────────────────┘
                                     ↓
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                          EVALUATION PHASE                                    │
+│                          EVALUATION PHASE                                   │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │  Batch Evaluation (81 models)         OR      Single Model Evaluation       │
 │  create_batch_evaluation_jobs.py              single_model_runner.py        │
 └─────────────────────────────────────────────────────────────────────────────┘
                                     ↓
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                      ANALYSIS & VISUALIZATION PHASE                          │
+│                      ANALYSIS & VISUALIZATION PHASE                         │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  Stage 1-2: Per-Config Analysis (HPC)    Stage 3: Cross-Config (Local)     │
-│  comprehensive_analyzer.py               key_models_analyzer.py            │
-│  pareto_key_models_analyzer.py           Transferability testing           │
+│  Stage 1-2: Per-Config Analysis (HPC)    Stage 3: Cross-Config (Local)      │
+│  comprehensive_analyzer.py               key_models_analyzer.py             │
+│  pareto_key_models_analyzer.py           Transferability testing            │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
