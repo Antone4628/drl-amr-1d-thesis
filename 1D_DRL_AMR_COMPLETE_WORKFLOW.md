@@ -1,7 +1,7 @@
 # 1D DRL-AMR Complete Workflow
 
 **Document Status:** Complete  
-**Last Updated:** February 9, 2025  
+**Last Updated:** February 9, 2026  
 **Project:** Deep Reinforcement Learning for Adaptive Mesh Refinement (1D Advection Equation)
 
 ---
@@ -1380,7 +1380,7 @@ All test cases should show `PASS`. If any fail, fix the `eff()` function in `num
 |------------|-------|-----------|------|-------|
 | session3_100k_uniform | 1 | 100k | — | Original Gaussian sweep |
 | session4_100k_uniform | 1 | 100k | — | Gaussian sweep |
-| session5_mexican_hat_200k | 16 | 200k | Jan 2, 2025 | First non-Gaussian IC |
+| session5_mexican_hat_200k | 16 | 200k | Jan 2, 2026 | First non-Gaussian IC |
 
 ### Environment Setup
 
